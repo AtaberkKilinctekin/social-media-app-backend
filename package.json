@@ -23,6 +23,10 @@
     "styled-components": "^5.2.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
     "@sanity/eslint-config-studio": "^2.0.1",
     "eslint": "^8.6.0",
     "prettier": "^2.8.4",
@@ -33,5 +37,6 @@
     "printWidth": 100,
     "bracketSpacing": false,
     "singleQuote": true
-  }
+  },
+  "browserslist": "> 0.25%, not dead"
 }
